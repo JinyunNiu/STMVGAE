@@ -18,5 +18,10 @@ We conduct full experiments on STMVGAE on five real datasets and compared it wit
 We provide slices of the DLPFC dataset.
 1. You can use train.py to train STMVGAE and select parameters in it. For example, you can choose to select Radius_balltree and KNN_balltree for training when building the adjacency matrix and save the clustering results to the corresponding folder.
 2. Once you have the results, you can use consensus_clustering to perform consensus clustering on two different clustering results and calculate their metrics.   
-3. You can use the results of consensus clustering to identify spatially variant genes using the SVGs.py file.
+3. You can use the results of consensus clustering to identify spatially variant genes using the SVGs.py file.   
 If you need programs to run other downstream tasks, please contact us via email: 83024551@qq.com.
+## Software dependencies
+scanpy == 1.9.2   
+scipy == 1.10.1   
+sklearn == 1.3.1   
+PyG == 2.3.1
