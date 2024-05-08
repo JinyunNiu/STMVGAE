@@ -1,4 +1,4 @@
-# STMVGAE
+# STMVGAE:Deep Clustering Representation for Spatially Resolved Transcriptomics Data via Multi-view Variational Graph Auto-Encoders with Consensus Clustering
 ![image](https://github.com/JinyunNiu/STMVGAE/blob/main/STMVGAE_Overview.jpg)
 ## Overview
 The rapid development of spatial transcriptomics technology has provided unprecedented opportunities to understand tissue relationships and functions within specific spatial contexts. Accurate identification of spatial domains is crucial for downstream spatial transcriptomics analysis, which lies in making full use of the spatial background of tissue and the integration of cell gene expression. However, effectively integrating gene expression data with spatial location information to identify spatial domains remains a challenge. To deal with the above issue, we propose STMVGAE, an accurate and general deep learning framework to identify spatial domains. 
